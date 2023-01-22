@@ -6,7 +6,7 @@ This is a simple movie app that uses the cool auto scroll animation feature of F
 ![Animated Movie Theatre App using Flutter](https://user-images.githubusercontent.com/65107679/213881383-c75c463c-c830-4f1f-8cf0-f79c5f09dcc9.gif)
 
 
-https://user-images.githubusercontent.com/65107679/212485764-e7915119-34ad-4804-83f3-fdcbd6f0cc60.mp4
+https://user-images.githubusercontent.com/65107679/213881538-23394d7f-eec2-41db-b3cf-a922b2ffcc22.mp4
 
 
 ---
