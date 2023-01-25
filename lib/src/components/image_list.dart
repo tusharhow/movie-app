@@ -37,14 +37,14 @@ class _ImageListState extends State<ImageList> {
       if (currentScrollPosition == endScrollPosition) {
         _scrollController.animateTo(
           beginScrollPosition,
-          duration: const Duration(seconds: 30),
+          duration: Duration(seconds: widget.duration),
           curve: Curves.linear,
         );
       }
       if (currentScrollPosition == beginScrollPosition) {
         _scrollController.animateTo(
           endScrollPosition,
-          duration: const Duration(seconds: 30),
+          duration: Duration(seconds: widget.duration),
           curve: Curves.linear,
         );
       }
@@ -69,6 +69,7 @@ class _ImageListState extends State<ImageList> {
         child: ListView.builder(
             controller: _scrollController,
             scrollDirection: Axis.horizontal,
+            physics: const BouncingScrollPhysics(),
             itemCount: 10,
             itemBuilder: (context, index) {
               String image =
